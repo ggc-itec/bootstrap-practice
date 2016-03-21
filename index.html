@@ -3,6 +3,8 @@
 <head>
   
 <link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
+<script src="js/jquery-1.12.2.min.js"></script>
+<script src="js/bootstrap.js"></script>
 
 <style>
   .container {
@@ -20,49 +22,60 @@
 </head>
 
 <body>
-  <ul class="nav nav-pills" role="tablist">
-    <li class="active"><a href="#">LeetCode OJ</a></li>
-    <li><a href="#">LeetCode Premium Suscription</a></li>
-        
-    <li class="dropdown">
+  
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">LeetCode OJ</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#"><span class = "orange"> LeetCode Premium Suscription </span></a></li>
+      <li class="dropdown">
       <a class="dropdown-toggle" data-toggle="dropdown" href="#">
       Problems <span class="caret"></span></a>
       <ul class="dropdown-menu" role="menu">
-        <li><a href="#">HTML</a></li>
-    </li>
-    
-    <li><a href="#">Pick One</a></li>
+      <li><a href="#"></a>.</li>
       
-    <li class="dropdown">
+    </ul>
+      <li><a href="#">Pick One</a></li> 
+      <li class="dropdown">
       <a class="dropdown-toggle" data-toggle="dropdown" href="#">
       Mock <span class="caret"></span></a>
-      <ul class="dropdown-menu" role="menu">
-        <li><a href="#">HTML</a></li> 
-    </li>
-      
-      <li><a href="#">Articles</a></li>
-      <li><a href="#">Discuss</a></li>
-      <li><a href="#">Book</a></li>
-      <a href="#" class="btn btn-primary btn-sm" role="button">Sign Up</a>
-      <a href="#" class="btn btn-default btn-sm" role="button">Sign In</a>
-   </ul>
-  </li>
- </ul>
+      <ul class="dropdown-menu">
+        <li><a href="#">Mock Interview</a></li> 
+        <li><a href="#">Past Sessions</a></li>
+    </ul>
+    <li><a href="#">Articles</a></li> 
+    <li><a href="#">Discuss</a></li> 
+    <li><a href="#"><span class = "orange">Book</span></a></li> 
+    </ul>
+
+    <a href="#" class="btn btn-primary btn-sm" role="button">Sign Up</a> </li>
+    <a href="#" class="btn btn-default btn-sm" role="button">Sign In</a>
+  </ul>
+  </div>
+</nav>
   
+
+
+ 
+
 
 <div class="container">
   <div class="well well-lg">
   <h1>LeetCode Online Judge</h1>
-  <p>We are supporting JavaScript and Ruby now! </p>
+  <p>We are supporting <span class= "red">JavaScript </span> and <span class= "red">Ruby</span> now!
   <p>LeetCode OJ is a platform for preparing technical coding interviews. Pick from an expanding library of more than 190
   questions, code, and submit you solution to see if you have solved it correctly. It is that easy!</p>
   <p>Our platform currently supports a total of 9 languages: C, C++, Java, Python, C#, JavaScript, Ruby, Bash, MySQL</p>
-  <p>Follow or Like LeetCode and get the latest update when a new question is added!</p>
+  <p><a href="url">Follow</a> or <a href="url">Like LeetCode</a> and get the <span class= "red">latest update</span> when a new question is added!</p>
   <ul>
-    <li>Facebook</li>
-    <li>Twitter</li>
-    <li>Weibo</li>
+    <li><a href="url">Facebook</a></li>
+    <li><a href="url">Twitter</a></li>
+    <li><a href="url">Weibo</a></li>
   </ul>
+  
+ <p> <a href="url">Code.</a> <a href="url">Read.</a> <a href="url">Discuss</a> </p>
   
   <form class="form-inline" role="form">
     <div class="form-group">
@@ -82,8 +95,15 @@
     <button type="submit" class="btn btn-primary">Sign up for LeetCode OJ</button>
   </form>
   <hr>
+  <div class="row">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4">Or Sign Up With</div>
+  </div>
   </div>
 </div>
+
+<div> </div>
 
 
 </div>
